@@ -20,8 +20,9 @@ Program to find the eigen values and eigen vectors.
 Developed by: SUDHARSAN RAM M 
 #RegisterNumber:212222110048
 import numpy as np
-a=np.array([[2,2], [1,311)
-values, vectors-np.linalg.eig(a) print ("Eigen values are", values, "and Eigen Vectors are", vectors)
+a=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
+values,vectors=np.linalg.eig(a)
+print("Eigen values are",values,"and Eigen Vectors are",vectors)
 ```
 
 ## Output:
